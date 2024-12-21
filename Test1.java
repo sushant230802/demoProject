@@ -11,7 +11,9 @@ public class Test{
         int c=sc.nextInt();
 
         int sum=a+b+c;
+		int avg=sum/3;
         System.out.println("the addition is:"+sum);
-        sc.close();
+        System.out.println("the average is "+avg);
+		sc.close();
     }
 }
